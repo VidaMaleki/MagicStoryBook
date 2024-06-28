@@ -2,11 +2,22 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+`npx create-react-app . --template typescript`
+
+`npm install react-router-dom @types/react-router-dom`
+
+
 ## Available Scripts
 
 In the project directory, you can run:
 
 ### `npm start`
+if you have problem running app try step below
+`rm -rf node_modules`
+`rm package-lock.json`
+
+`npm cache clean --force`
+`npm install`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
